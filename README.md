@@ -546,3 +546,10 @@ Determine whether the toy is connected, it will return true as long as there is 
 Open Lovense Mobile Remote.
 
 ```lovense.openMobileRemote()```
+
+
+GIVE FEEDBACK
+-------------
+Please report bugs or issues to [Lovense Support](mailto:developer@mail.lovense.com).
+
+You can also join our [Lovense Developer Community Discord](https://discord.gg/dW9f54BwqR), visit the [Lovense Developers Website](https://developer.lovense.com/#introduction), or open an issue in this repository.
