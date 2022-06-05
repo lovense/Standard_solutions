@@ -2,7 +2,7 @@
 
 These solutions allow you to control users' Lovense toys by simple HTTPS request.
 
-If you want to integrate with your website or web app, we suggest you use our [Standard JS API](https://github.com/lovense/Standard_solutions#standard-js-api).
+If you want to integrate with your website or web app, we suggest you use our [Standard JS API](#standard-js-api).
 
 If you integrate a Standard Solution, your users must use Lovense Remote to pair their toys. 
 Lovense Remote is available on Google Play and the App Store.
