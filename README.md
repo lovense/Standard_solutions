@@ -53,12 +53,12 @@ Go to the developer dashboard at https://www.lovense.com/user/developer/info and
 - Use a POST request to call Lovense server's API.
 - Javascript call example:
 ```
-const result = async axios.post('https://api.lovense.com/api/lan/getQrCode',
+const result = await axios.post('https://api.lovense.com/api/lan/getQrCode',
   {
     token: 'your developer token',  // Lovense developer token
     uid: '11111',  // user ID on your website
     uname: 'user name', // user nickname on your website
-    utoken: md5(uid + 'salt')  // This is for your own verification purposes. We suggest you to generate a unique token/secret for each user. This allows you to verify the user and avoid others faking the calls.
+    utoken: md5(uid + 'salt'),  // This is for your own verification purposes. We suggest you to generate a unique token/secret for each user. This allows you to verify the user and avoid others faking the calls.
     v: 2
   }
 )
